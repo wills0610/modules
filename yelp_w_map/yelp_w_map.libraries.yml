@@ -1,0 +1,5 @@
+yelp_w_map:
+  version: 1.x
+  css:
+    theme:
+        css/yelp_w_map.css: {}

@@ -1,0 +1,20 @@
+field.formatter.settings.yelp_w_map:
+  type: mapping
+  label: 'Yelp Review and Google Map formatter settings'
+  mapping:
+    apikey:
+      type: string
+      label: 'Google Maps API key, needed for maps'
+    yelp_apikey:
+      type: string
+      label: 'Yelp API key, needed for use Yelp API service'
+    pic_width:
+      type: integer
+      label: 'Picture width'
+    map_width:
+      type: integer
+      label: 'Map width'
+    map_height:
+      type: integer
+      label: 'Map width'
+

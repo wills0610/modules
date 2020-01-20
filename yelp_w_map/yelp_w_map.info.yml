@@ -1,0 +1,7 @@
+name: Yelp with Map Plugin
+type: module
+description: 'Show Yelp review and Google map in Drupal 8.'
+package: Demo
+version: 8.x-1.x
+core: 8.x
+

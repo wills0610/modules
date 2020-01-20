@@ -1,0 +1,24 @@
+.yelp_review {color:red;}
+.yelp_review table{
+	background-color:#FFF;
+}
+.yelp_review table tr{
+	background-color:#FFF;
+}
+.yelp_review table td{
+	background-color:#FFF;
+	color:#252525;
+}
+.yelp_review .shop_name{
+	color:#d32323;
+	font-weight:bold;
+	border-bottom:none;
+	font-size:2em;
+}
+.yelp_review .rating{
+	color:#d32323;
+	font-weight:bold;
+}
+.yelp_review .yelp_logo a{
+	border-style:none;
+}
