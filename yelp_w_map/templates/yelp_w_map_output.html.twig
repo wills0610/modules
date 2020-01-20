@@ -1,4 +1,5 @@
 {{ attach_library('yelp_w_map/yelp_w_map') }}
+{% if yelp_data.name %}
 <div class="yelp_review">
 <table border="0">
 <tr>
@@ -55,7 +56,8 @@ Based on {{ yelp_data.review_count }} Reviews
     </tr>
 {% endfor %}
 </table>
-{% if yelp_format.map_width > 0 and yelp_format.map_height > 0 %}
+{% if yelp_format.map_width > 0 and yelp_format.map_height > 0 and yelp_data.lat and yelp_data.lng %}
 <iframe width="{{ yelp_format.map_width }}" height="{{ yelp_format.map_height }}" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key={{ yelp_format.gmap_apikey }}&amp;q={{ yelp_data.lat }},{{ yelp_data.lng }}" allowfullscreen></iframe>
 {% endif %}
 </div>
+{% endif %}
